@@ -1,0 +1,12 @@
+// Create two variables and assign two numbers to them
+let number1 = 25;
+let number2 = 37;
+
+// Check which number is bigger and print the result
+if (number1 > number2) {
+  console.log("The bigger number is:", number1);
+} else if (number2 > number1) {
+  console.log("The bigger number is:", number2);
+} else {
+  console.log("Both numbers are equal:", number1, "and", number2);
+}
